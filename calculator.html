@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+ <meta charset="UTF-8" /> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+ <link rel="stylesheet" href="calculator.css" />
+  <title>Document</title> 
+  </head> 
+  <body>
+   <div class="main">
+    <form name="form">
+     <input class="textview" id="display" name="textview" value="" /> <br /> 
+     <input class="button" type="button" value="7" onclick="calculator.display.value+='7'" />
+      <input class="button" type="button" value="8" onclick="calculator.display.value+='8'" /> 
+      <input class="button" type="button" value="9" onclick="calculator.display.value+='9'" /> 
+      <input class="button" type="button" value="-" onclick="calculator.display.value+='-'" />
+       <br /> 
+      <input class="button" type="button" value="4" onclick="calculator.display.value+='4'" />
+       <input class="button" type="button" value="5" onclick="calculator.display.value+='5'" />
+        <input class="button" type="button" value="6" onclick="calculator.display.value+='6'" /> 
+        <input class="button" type="button" value="+" onclick="calculator.display.value+='+'" />
+         <br />
+          <input class="button" type="button" value="3" onclick="calculator.display.value+='3'" /> 
+          <input class="button" type="button" value="2" onclick="calculator.display.value+='2'" /> 
+          <input class="button" type="button" value="1" onclick="calculator.display.value+='1'" /> 
+          <input class="button" type="button" value="x" onclick="calculator.display.value+='x'" /> 
+          <br /> 
+          <input class="button" type="button" value="%" onclick="calculator.display.value+='%'" />
+           <input class="button" type="button" value="0" onclick="calculator.display.value+='0'" /> 
+           <input type="button" value="=" id="calculate" /> 
+           <input type="button" id="clear" value="clear" onclick="calculator.display.value=''" />
+            <br /> 
+            </form> 
+            </div> 
+            <script type="text/javascript" src="calc.js"></script>
+             </body>
+             </html>
+
+
+
+
+    
