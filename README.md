@@ -2,10 +2,10 @@
 <head> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  <style type="text/css" id="dcoder_stylesheet">body {
-    background-color:rgb(24 144 240)}
+    background-color:rgb(24, 144, 240)}
 table{
     margin:auto;
-    background-color:rgb(0 48 72);
+    background-color:rgb(0, 48, 72);
     width:295px;
     max-width:295px;
     height:325px;
@@ -118,7 +118,7 @@ button{
     text-align: center;
     border-radius: 4px;
     box-shadow: 0 ;
-    background-color: rgb(48 72 192);
+    background-color: rgb(48, 72, 192);
     display: block ;
     height: 40px;
     border-style: none;
@@ -168,9 +168,9 @@ hr{
        <hr></td> 
      </tr> 
      <tr> 
-      <td><input type="button" name="one" value="7" onclick="calculator.display.value += '7'"></td> 
-      <td><input type="button" name="two" value="8" onclick="calculator.display.value += '8'"></td> 
-      <td><input type="button" name="three" value="9" onclick="calculator.display.value += '9'"></td> 
+      <td><input type="button" name="seven" value="7" onclick="calculator.display.value += '7'"></td> 
+      <td><input type="button" name="eight" value="8" onclick="calculator.display.value += '8'"></td> 
+      <td><input type="button" name="nine" value="9" onclick="calculator.display.value += '9'"></td> 
       <td><input type="button" class="operator" name="plus" value="+" onclick="calculator.display.value += '+'"></td> 
      </tr> 
      <tr> 
