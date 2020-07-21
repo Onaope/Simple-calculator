@@ -1,4 +1,5 @@
-<! DOCTYPE html><html><head> 
+
+<head> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  <style type="text/css" id="dcoder_stylesheet">body {
     background-color:rgb(24 144 240)}
@@ -198,5 +199,5 @@ hr{
   </form> 
  
 </body>
-</html>
+
 
