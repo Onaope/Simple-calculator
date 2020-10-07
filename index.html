@@ -193,6 +193,10 @@ hr{
      <tr> 
       <td colspan="8"> <button type="button" name="doit" value="=" onclick="calculator.display.value = eval(calculator.display.value)">=</button></td> 
      </tr> 
+      <tr>
+        <td><input type="button" name="clear" value="." onclick="calculator.display.value += '<-'"></td> <!-- add clear option -->
+        <td><input type="button" name="cancle" value="." onclick="calculator.display.value += 'X'"></td> 
+      </tr>
     </tbody> 
    </table> 
   </form> 
